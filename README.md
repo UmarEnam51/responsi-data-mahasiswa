@@ -102,60 +102,7 @@ responsi-data-mahasiswa/
 
 ---
 
-## 🚀 Panduan Menjalankan Proyek di Komputer Lokal
 
-### 1. Prasyarat
-Pastikan komputer telah terpasang **Node.js** (versi 18+) dan **npm**.
-
-### 2. Langkah Menjalankan
-Buka Terminal / PowerShell di dalam folder proyek ini:
-
-```bash
-# 1. Pindah ke direktori proyek
-cd responsi-data-mahasiswa
-
-# 2. Instal seluruh paket dependensi
-npm install
-
-# 3. Jalankan server pengembang (development server)
-npm run dev
-```
-
-Buka peramban (browser) dan akses alamat lokal yang diberikan (biasanya `http://localhost:5173/`).
-
----
-
-## 📤 Panduan Upload ke GitHub & Pengumpulan Tugas (Lensa)
-
-Sesuai ketentuan pengumpulan Responsi 1:
-1. Pastikan folder `node_modules` diabaikan menggunakan file `.gitignore`.
-2. Jalankan perintah Git berikut di terminal:
-
-```bash
-cd responsi-data-mahasiswa
-
-# Inisialisasi Git
-git init
-
-# Tambahkan semua file (node_modules otomatis diabaikan)
-git add .
-
-# Buat commit
-git commit -m "feat: implementasi lengkap responsi 1 dashboard data mahasiswa & akademik - Umar (2511501006)"
-
-# Hubungkan ke repository GitHub UmarEnam51 (buat repo baru di GitHub terlebih dahulu)
-git remote add origin https://github.com/UmarEnam51/responsi-data-mahasiswa.git
-
-# Set branch utama ke main
-git branch -M main
-
-# Upload seluruh kode ke GitHub
-git push -u origin main
-```
-
-3. Salin tautan (*link*) repositori GitHub Anda, masukkan ke dalam dokumen PDF, lalu unggah ke portal **Lensa**.
-
----
 
 *Disusun oleh: **UMAR (NIM: 2511501006)** — Program Studi Teknologi Informasi, Universitas 'Aisyiyah Yogyakarta.*
 
