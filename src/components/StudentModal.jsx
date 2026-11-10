@@ -45,7 +45,7 @@ const StudentModal = ({ show, handleClose, onSave, studentToEdit }) => {
     const payload = {
       ...formData,
       ipk: ipkNum.toFixed(2),
-      email: formData.email.trim() || `${formData.nim.trim()}@unisayogya.ac.id`,
+      email: formData.email.trim() || `${formData.nim.trim()}@student.unisayogya.ac.id`,
     };
 
     onSave(payload);
